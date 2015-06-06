@@ -53,9 +53,6 @@ class CekResi:
     return data.strip()
 
 def run_bot():
-
-  token = 'DSDul00LGgZArl7BpnG9.7G5I6BFxft9H3fpsy5auMq.u/pdhWo6QiO5vB9jW+JwaGSGWdf8/anhhyE7dpiewX0='
-
   try:
      client = LineClient(EMAIL, PASSWORD)
   #   client = LineClient(authToken=token)
